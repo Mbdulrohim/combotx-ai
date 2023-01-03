@@ -72,7 +72,7 @@ const handleSubmit = async (e)=>{
 
   // fetch data from server
 
-  const response = await fetch('',{
+  const response = await fetch('https://combotx.onrender.com/',{
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
